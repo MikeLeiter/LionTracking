@@ -4,11 +4,11 @@ scorer: Pranav
 date: Oct30
 
 # Project path (change when moving around)
-project_path: WILL BE AUTOMATICALLY UPDATED BY DEMO CODE
+project_path: C:\Users\mleit\Dropbox\csci5561\Project\LionTracking\examples\openfield-Pranav-2018-10-30
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  WILL BE AUTOMATICALLY UPDATED BY DEMO CODE:
+  C:\Users\mleit\Dropbox\csci5561\Project\LionTracking\examples\openfield-Pranav-2018-10-30\videos\m4s1.mp4:
     crop: 0, 640, 0, 480
 bodyparts:
 - snout
@@ -21,6 +21,8 @@ stop: 1
 numframes2pick: 20
 
 # Plotting configuration
+skeleton: []
+skeleton_color: black
 pcutoff: 0.4
 dotsize: 8
 alphavalue: 0.7
@@ -30,7 +32,7 @@ colormap: jet
 TrainingFraction:
 - 0.95
 iteration: 0
-default_net_type: resnet_50
+resnet:
 snapshotindex: -1
 batch_size: 4
 
@@ -47,3 +49,4 @@ corner2move2:
 - 50
 - 50
 move2corner: true
+default_net_type: resnet_50
